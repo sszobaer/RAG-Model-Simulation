@@ -1,15 +1,24 @@
 # Retrieval-Augmented Generation (RAG) System
 
-This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)** system using `transformers`, `datasets`, and `faiss` libraries. The system performs document retrieval and generates answers using a language model, allowing the combination of retrieval and generation to improve answer accuracy.
+**Author:** S S Zobaer Ahmed
+
+## Index
+1. Overview
+2. Requirements
+3. Setup
+    - Load the Corpus
+    - Create a FAISS Index for Retrieval
+    - Perform Retrieval
+    - Generate an Answer Using a Language Model
+4. Example Output
+5. How It Works
+6. Use Cases
+7. Contributing
+8. License
 
 ## Overview
 
-In this system:
-1. A **corpus of documents** is embedded using a transformer model.
-2. A **FAISS index** is created to enable fast retrieval of relevant documents based on a query.
-3. A **language model** is used to generate answers using the retrieved documents as context.
-
-This system can be used for any scenario where the combination of document retrieval and text generation can help answer questions or summarize information effectively.
+This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)** system using `transformers`, `datasets`, and `faiss` libraries. The system performs document retrieval and generates answers using a language model, allowing the combination of retrieval and generation to improve answer accuracy.
 
 ## Requirements
 
@@ -21,9 +30,10 @@ To run this project, you need the following Python libraries:
 - `tqdm`
 
 You can install these dependencies using the following command:
-```bash
+```xml
+<code>
 pip install torch transformers datasets faiss-cpu tqdm
-```
+</code>
 
 If you're using Google Colab, make sure to enable the GPU by navigating to Runtime > Change runtime type > Hardware accelerator > GPU.
 
