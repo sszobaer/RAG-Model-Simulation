@@ -1,6 +1,5 @@
 # Retrieval-Augmented Generation (RAG) System
 
-**Author:** S S Zobaer Ahmed
 
 ## Index
 1. [Overview](#overview)
@@ -15,6 +14,8 @@
 6. [Use Cases](#Use-Cases)
 7. [Contributing](#Contributing)
 8. [License](#License)
+
+**Author:** S S Zobaer Ahmed
 
 ## Overview
 
