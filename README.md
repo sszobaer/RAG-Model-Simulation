@@ -142,7 +142,7 @@ Use Cases
 Feel free to fork this repository, make improvements, and open a pull request. If you have any suggestions or feedback, open an issue.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/sszobaer/RAG-Model-Simulation/blob/main/LICENSE) - see the LICENSE file for details.
 
 
 Simply copy the content above and paste it directly into your `README.md` file. This will provide clear documentation for your project and make it easier for others to understand and contribute. Let me know if you need further changes!
