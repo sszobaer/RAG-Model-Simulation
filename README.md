@@ -3,18 +3,18 @@
 **Author:** S S Zobaer Ahmed
 
 ## Index
-1. Overview(## Overview)
-2. Requirements
-3. Setup
-    - Load the Corpus
-    - Create a FAISS Index for Retrieval
-    - Perform Retrieval
-    - Generate an Answer Using a Language Model
-4. Example Output
-5. How It Works
-6. Use Cases
-7. Contributing
-8. License
+1. [Overview](#overview)
+2. [Requirements](#requirements)
+3. [Setup](#setup)
+    - [Load the Corpus](#load-the-Corpus)
+    - [Create a FAISS Index for Retrieval](#create-a-FAISS-Index-for-Retrieval)
+    - [Perform Retrieval](#Perform-Retrieval)
+    - [Generate an Answer Using a Language Model](#Generate-an-Answer-Using-a-Language-Model)
+4. [Example Output](#Example-Output)
+5. [How It Works](#How-It-Works)
+6. [Use Cases](#Use-Cases)
+7. [Contributing](#Contributing)
+8. [License](#License)
 
 ## Overview
 
@@ -34,6 +34,7 @@ You can install these dependencies using the following command:
 <code>
 pip install torch transformers datasets faiss-cpu tqdm
 </code>
+```
 
 If you're using Google Colab, make sure to enable the GPU by navigating to Runtime > Change runtime type > Hardware accelerator > GPU.
 
